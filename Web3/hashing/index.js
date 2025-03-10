@@ -16,14 +16,14 @@ try {
   // Create keypair from base58 encoded secret key
   const keypair1 = Keypair.fromSecretKey(
     bs58.decode(
-      "2b4NebvH2......................18thkB7kL7LMyAv9UKNNsRF4kiw6UBy2k9m4VsKX"
+      "2b4NebvH2.....................sRF4kiw6UBy2k9m4VsKX"
     )
   );
 
   // Create keypair from Uint8Array secret key
   const keypair2 = Keypair.fromSecretKey(
     Uint8Array.from([
-        79,99,48,186,19,111,250,176,73,131,236,172,55,160,40,249,196,131,49,38,103,159,40,41,156,32,16,148,243,85,119,158,189,225,206,72,221,124,179,40,231,8,198,184,28,216,225,208,44,156,127,136,7,169,96,205,238,67,114,2,205,195,198,202
+        79,99,48,67,114,2,205,195,198,202
     ])
   );
 
